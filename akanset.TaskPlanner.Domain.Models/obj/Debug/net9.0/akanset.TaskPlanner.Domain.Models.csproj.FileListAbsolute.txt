@@ -1,0 +1,11 @@
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.deps.json
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.AssemblyInfoInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.AssemblyInfo.cs
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.csproj.CoreCompileInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\refint\akanset.TaskPlanner.Domain.Models.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Models.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Models\obj\Debug\net9.0\ref\akanset.TaskPlanner.Domain.Models.dll
