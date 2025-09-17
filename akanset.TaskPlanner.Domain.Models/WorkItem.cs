@@ -22,7 +22,8 @@ public class WorkItem
     {
         string DueDate_converted = DueDate.ToString("dd.MM.yyyy");
         string Priority_converted = Priority.ToString().ToLower();
-        string s = $"{Title}: due {DueDate_converted}, {Priority} priority";
+        string s = $"{Title}: due {DueDate_converted}, {Priority_converted} priority";
         return s;
     }
 }
+
