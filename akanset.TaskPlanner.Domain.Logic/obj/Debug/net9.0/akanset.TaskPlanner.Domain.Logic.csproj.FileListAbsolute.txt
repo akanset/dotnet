@@ -1,0 +1,15 @@
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.deps.json
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.csproj.AssemblyReference.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.GeneratedMSBuildEditorConfig.editorconfig
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.AssemblyInfoInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.AssemblyInfo.cs
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.csproj.CoreCompileInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset..D4958C2C.Up2Date
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\refint\akanset.TaskPlanner.Domain.Logic.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\ref\akanset.TaskPlanner.Domain.Logic.dll
