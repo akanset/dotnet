@@ -18,3 +18,8 @@ E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.Domai
 E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.pdb
 E:\vntu\NetFolder\akanset.TaskPlanner\obj\Debug\net9.0\akanset.TaskPlanner.csproj.AssemblyReference.cache
 E:\vntu\NetFolder\akanset.TaskPlanner\obj\Debug\net9.0\akanset..6EFB2E95.Up2Date
+E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\Newtonsoft.Json.dll
+E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.dll
+E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.dll
+E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.pdb

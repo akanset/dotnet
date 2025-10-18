@@ -1,56 +1,127 @@
 ﻿using akanset.TaskPlanner.Domain.Logic;
 using akanset.TaskPlanner.Domain.Models;
+using akanset.TaskPlanner.DataAccess;
+using akanset.TaskPlanner.DataAccess.Abstractions;
 internal static class Program
 {
     public static void Main(string[] args)
     {
         List<WorkItem> list = new List<WorkItem>();
 
-        SimpleTaskPlanner planner = new SimpleTaskPlanner();
-        
-        
+        IWorkItemsRepository repo = new FileWorkItemsRepository();
+        SimpleTaskPlanner planner = new SimpleTaskPlanner(repo);
+
         while (true)
         {
-            Console.WriteLine("Choose the option: (type the number)" + '\n' + "1. Create new Task." + '\n' + "2. See list of Tasks." + '\n' + "3. Exit.");
-            int option = int.Parse(Console.ReadLine());
-            switch (option)
+            Console.WriteLine("[A]dd" + '\n' + "[B]uild plan" + '\n' + "[M]ark completed" + '\n' + "[R]emove" + '\n' + "[Q]uit");
+            Console.Write("Choose: ");
+
+            var cmd = Console.ReadLine()?.Trim();
+            switch (cmd?.ToUpperInvariant())
             {
-                case 1:
-                    Console.WriteLine("Enter Title:");
-                    string title = Console.ReadLine();
-
-                    Console.WriteLine("Enter Due Date (dd.mm.yyyy):");
-                    string dueDate = Console.ReadLine();
-
-                    Console.WriteLine("Enter Priority: (0-4)");
-                    int prior = int.Parse(Console.ReadLine());
-
-                    Console.WriteLine("Enter Complexity: (0-4)");
-                    int comp = int.Parse(Console.ReadLine());
-
-                    Console.WriteLine("Enter Description:");
-                    string desc = Console.ReadLine();
-
-                    WorkItem toAdd = new WorkItem(title, DateTime.Parse(dueDate), (Priority)prior, (Complexity)comp, desc);
-                    list.Add(toAdd);
-
+                case "A":
+                    AddWorkItem(repo);
                     break;
-                case 2:
-                    WorkItem[] newItem = planner.CreatePlan(list.ToArray());
 
-                    Console.WriteLine("List:");
-
-                    foreach (var item in newItem)
-                    {
-                        Console.WriteLine(item.ToString());
-                    }
-
+                case "B":
+                    BuildPlan(planner);
                     break;
-                case 3:
-                    Environment.Exit(0);
 
+                case "M":
+                    MarkCompleted(repo);
+                    break;
+
+                case "R":
+                    RemoveItem(repo);
+                    break;
+
+                case "Q":
+                    repo.SaveChanges();
+                    Console.WriteLine("Changes saved. Quitting..");
+                    return;
+
+                default:
+                    Console.WriteLine("Unknown command");
                     break;
             }
+        }
+    }
+    private static void AddWorkItem(IWorkItemsRepository repo)
+    {
+        Console.Write("Enter title: ");
+        string title = Console.ReadLine() ?? "";
+
+        Console.Write("Enter description: ");
+        string desc = Console.ReadLine() ?? "";
+
+        Console.Write("Enter priority (1-5): ");
+        int priority = int.TryParse(Console.ReadLine(), out var p) ? p : 1;
+
+        Console.Write("Enter complexity (1-5): ");
+        int complexity = int.TryParse(Console.ReadLine(), out var c) ? c : 1;
+
+        var item = new WorkItem
+        {
+            Title = title,
+            Description = desc,
+            Priority = (Priority)priority,
+            Complexity = (Complexity)complexity,
+            CreationDate = DateTime.Now,
+            IsCompleted = false
+        };
+
+        var id = repo.Add(item);
+        Console.WriteLine($"WorkItem added with ID: {id}");
+    }
+    private static void BuildPlan(SimpleTaskPlanner planner)
+    {
+        var plan = planner.CreatePlan();
+
+        Console.WriteLine("=== Plan ===");
+        foreach (var item in plan)
+        {
+            Console.WriteLine($"[{item.Id}] {item.Title} - Completed: {item.IsCompleted}");
+        }
+    }
+    private static void MarkCompleted(IWorkItemsRepository repo)
+    {
+        Console.Write("Enter ID of work item to mark completed: ");
+        if (Guid.TryParse(Console.ReadLine(), out var id))
+        {
+            var item = repo.Get(id);
+            if (item != null)
+            {
+                item.IsCompleted = true;
+                repo.Update(item);
+                Console.WriteLine("Marked as completed.");
+            }
+            else
+            {
+                Console.WriteLine("Work item not found.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid GUID.");
+        }
+    }
+    private static void RemoveItem(IWorkItemsRepository repo)
+    {
+        Console.Write("Enter ID of work item to remove: ");
+        if (Guid.TryParse(Console.ReadLine(), out var id))
+        {
+            if (repo.Remove(id))
+            {
+                Console.WriteLine("Work item removed.");
+            }
+            else
+            {
+                Console.WriteLine("Work item not found.");
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid GUID.");
         }
     }
 }

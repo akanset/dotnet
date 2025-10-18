@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {}
+    "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {}
   },
   "projects": {
-    "e:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
+    "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
+        "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
         "projectName": "akanset.TaskPlanner.Domain.Models",
-        "projectPath": "e:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
+        "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
         "packagesPath": "C:\\Users\\boba\\.nuget\\packages\\",
-        "outputPath": "e:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\obj\\",
+        "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\boba\\AppData\\Roaming\\NuGet\\NuGet.Config"

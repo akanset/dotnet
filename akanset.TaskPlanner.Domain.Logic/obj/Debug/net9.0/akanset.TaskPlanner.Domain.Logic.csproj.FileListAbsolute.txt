@@ -13,3 +13,7 @@ E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.Task
 E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\refint\akanset.TaskPlanner.Domain.Logic.dll
 E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\akanset.TaskPlanner.Domain.Logic.pdb
 E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\obj\Debug\net9.0\ref\akanset.TaskPlanner.Domain.Logic.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.Domain.Logic\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.pdb

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\akanset.TaskPlanner.Domain.Models\akanset.TaskPlanner.Domain.Models.csproj" />
+    <ProjectReference Include="..\akanset.TaskPlanner.DataAccess\akanset.TaskPlanner.DataAccess.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

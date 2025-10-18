@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+zmsEkKEfdY=",
+  "dgSpecHash": "c7A3Fcby9X8=",
   "success": true,
   "projectFilePath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\boba\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
+  ],
   "logs": []
 }

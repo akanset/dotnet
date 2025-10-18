@@ -3,6 +3,8 @@
   <ItemGroup>
     <ProjectReference Include="..\akanset.TaskPlanner.Domain.Models\akanset.TaskPlanner.Domain.Models.csproj" />
     <ProjectReference Include="..\akanset.TaskPlanner.Domain.Logic\akanset.TaskPlanner.Domain.Logic.csproj" />
+    <ProjectReference Include="..\akanset.TaskPlanner.DataAccess\akanset.TaskPlanner.DataAccess.csproj" />
+    <ProjectReference Include="..\akanset.TaskPlanner.DataAccess.Abstractions\akanset.TaskPlanner.DataAccess.Abstractions.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

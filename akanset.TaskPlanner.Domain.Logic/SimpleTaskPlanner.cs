@@ -1,12 +1,23 @@
 ﻿namespace akanset.TaskPlanner.Domain.Logic;
 
 using akanset.TaskPlanner.Domain.Models;
+using akanset.TaskPlanner.DataAccess.Abstractions;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 
 public class SimpleTaskPlanner
 {
-    public WorkItem[] CreatePlan(WorkItem[] items)
+    private readonly IWorkItemsRepository _repository;
+    public SimpleTaskPlanner(IWorkItemsRepository repository)
     {
-        List<WorkItem> list = items.ToList();
+        _repository = repository ?? throw new ArgumentNullException(nameof(repository));
+    }
+    public WorkItem[] CreatePlan()
+    {
+        var items = _repository.GetAll();
+        var activeItems = items.Where(w => !w.IsCompleted).ToList();
+        List<WorkItem> list = activeItems.ToList();
         list.Sort((x, y) =>
             {
                 int result = y.Priority.CompareTo(x.Priority);
