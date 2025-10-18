@@ -1,0 +1,15 @@
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.AssemblyInfoInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.AssemblyInfo.cs
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.csproj.CoreCompileInputs.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.csproj.AssemblyReference.cache
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.deps.json
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\bin\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\bin\Debug\net9.0\akanset.TaskPlanner.Domain.Models.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset..A00DC893.Up2Date
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\refint\akanset.TaskPlanner.DataAccess.Abstractions.dll
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\akanset.TaskPlanner.DataAccess.Abstractions.pdb
+E:\vntu\NetFolder\akanset.TaskPlanner.DataAccess.Abstractions\obj\Debug\net9.0\ref\akanset.TaskPlanner.DataAccess.Abstractions.dll

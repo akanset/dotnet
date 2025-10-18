@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "akanset.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+        "dependencies": {
+          "akanset.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "runtime": {
+          "akanset.TaskPlanner.DataAccess.Abstractions.dll": {}
+        }
+      },
+      "akanset.TaskPlanner.Domain.Models/1.0.0": {
+        "runtime": {
+          "akanset.TaskPlanner.Domain.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "akanset.TaskPlanner.DataAccess.Abstractions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "akanset.TaskPlanner.Domain.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

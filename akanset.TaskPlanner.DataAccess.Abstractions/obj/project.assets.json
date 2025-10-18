@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
-      "projectName": "akanset.TaskPlanner.Domain.Logic",
-      "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
+      "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
+      "projectName": "akanset.TaskPlanner.DataAccess.Abstractions",
+      "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
       "packagesPath": "C:\\Users\\boba\\.nuget\\packages\\",
-      "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\obj\\",
+      "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\boba\\AppData\\Roaming\\NuGet\\NuGet.Config"
