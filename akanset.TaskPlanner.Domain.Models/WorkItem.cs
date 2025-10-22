@@ -3,7 +3,6 @@
 using akanset.TaskPlanner.Domain.Models;
 public class WorkItem
 {
-    public DateTime CreationDate { get; set; }
     public DateTime DueDate { get; set; }
     public Priority Priority { get; set; }
     public Complexity Complexity { get; set; }
@@ -14,10 +13,11 @@ public class WorkItem
     public WorkItem()
     {
         Title = "default";
-        DueDate = new DateTime(11, 11, 1111);
+        DueDate = new DateTime(1111, 11 , 11);
         Priority = Priority.None;
         Complexity = Complexity.None;
         Description = "default";
+        IsCompleted = false;
     } 
     public WorkItem(string title, DateTime dueDate, Priority priority, Complexity complexity, string? description)
     {

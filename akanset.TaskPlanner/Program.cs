@@ -2,6 +2,8 @@
 using akanset.TaskPlanner.Domain.Models;
 using akanset.TaskPlanner.DataAccess;
 using akanset.TaskPlanner.DataAccess.Abstractions;
+using Microsoft.VisualBasic;
+using System.Runtime.CompilerServices;
 internal static class Program
 {
     public static void Main(string[] args)
@@ -60,14 +62,16 @@ internal static class Program
         Console.Write("Enter complexity (1-5): ");
         int complexity = int.TryParse(Console.ReadLine(), out var c) ? c : 1;
 
+        Console.Write("Enter due date (yyyy.mm.dd): ");
+        string date = Console.ReadLine() ?? "";
+
         var item = new WorkItem
         {
             Title = title,
-            Description = desc,
+            DueDate = DateTime.Parse(date),
             Priority = (Priority)priority,
             Complexity = (Complexity)complexity,
-            CreationDate = DateTime.Now,
-            IsCompleted = false
+            Description = desc
         };
 
         var id = repo.Add(item);

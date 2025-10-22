@@ -109,19 +109,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\boba\\.nuget\\packages\\": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
       "projectName": "akanset.TaskPlanner.Domain.Logic",
-      "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
-      "packagesPath": "C:\\Users\\boba\\.nuget\\packages\\",
-      "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\akanset.TaskPlanner.Domain.Logic.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Logic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\boba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -133,11 +133,11 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess\\akanset.TaskPlanner.DataAccess.csproj": {
-              "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess\\akanset.TaskPlanner.DataAccess.csproj"
+            "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.DataAccess\\akanset.TaskPlanner.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.DataAccess\\akanset.TaskPlanner.DataAccess.csproj"
             },
-            "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
-              "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj"
+            "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj"
             }
           }
         }

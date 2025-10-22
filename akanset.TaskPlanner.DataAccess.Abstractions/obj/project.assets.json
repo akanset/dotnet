@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\boba\\.nuget\\packages\\": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
       "projectName": "akanset.TaskPlanner.DataAccess.Abstractions",
-      "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
-      "packagesPath": "C:\\Users\\boba\\.nuget\\packages\\",
-      "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\akanset.TaskPlanner.DataAccess.Abstractions.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.DataAccess.Abstractions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\boba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -51,8 +51,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
-              "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj"
+            "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj": {
+              "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj"
             }
           }
         }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("akanset.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1e7196a2f91ca44db2e8eaa423e8e12e7743bb49")]
 [assembly: System.Reflection.AssemblyProductAttribute("akanset.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("akanset.TaskPlanner.DataAccess.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

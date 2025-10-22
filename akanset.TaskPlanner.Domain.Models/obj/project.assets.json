@@ -8,19 +8,19 @@
     "net9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\boba\\.nuget\\packages\\": {}
+    "C:\\Users\\Alex\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
       "projectName": "akanset.TaskPlanner.Domain.Models",
-      "projectPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
-      "packagesPath": "C:\\Users\\boba\\.nuget\\packages\\",
-      "outputPath": "E:\\vntu\\NetFolder\\akanset.TaskPlanner.Domain.Models\\obj\\",
+      "projectPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\akanset.TaskPlanner.Domain.Models.csproj",
+      "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alex\\Desktop\\NetFolder\\akanset.TaskPlanner.Domain.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\boba\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alex\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
